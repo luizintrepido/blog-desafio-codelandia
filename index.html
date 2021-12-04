@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Blog Codelândia</title>
+
+</head>
+<body>
+  <header>
+    <div class="menu-bg">
+      <div class="menu">
+        <div class="t1">
+          <h2>Codelândia</h2>
+        </div>
+        <div class="t2">
+          <h2>blog</h2>
+        </div>
+    
+      </div>
+      <nav class="pesquisa">
+        
+        <input type="text" id="txtBusca" placeholder="Pesquisar no blog"/>
+        
+      </nav>
+    </div>
+  </header>
+  
+  <li class="container-post">
+    <div class="date">
+      <p>02 de jul, 2021 <img src="../Vectors2.svg" class="far fa-heart"></p>
+    </div>
+    <h2 class="title">Agora é oficial: o Windows 11 está vindo</h2>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+  </li>
+
+
+  <li class="container-post">
+    <div class="date">
+      <p>02 de jul, 2021 <img src="../Vectors2.svg" class="far fa-heart"></p>
+    </div>
+    <h2 class="title">Tim Berners-Lee vai leiloar código-fonte da web</h2>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero..</p>
+  </li>
+
+
+  <li class="container-post">
+    <div class="date">
+      <p>02 de jul, 2021 <img src="../Vectors2.svg" class="far fa-heart"></p>
+    </div>
+    <h2 class="title">Tem Firefox novo no pedaço e você vai querer migrar</h2>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+  </li>
+
+
+  <li class="container-post ultima">
+    <div class="date">
+      <p>02 de jul, 2021 <img src="../Vectors2.svg" class="far fa-heart"></p>
+    </div>
+    <h2 class="title">John McAfee, criador do antivírus McAfee, morre</h2>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est..</p>
+  </li>
+
+
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        reset: true
+    });
+
+    ScrollReveal().reveal('.container-post', { delay: 200 });
+    ScrollReveal().reveal('.date', { delay: 400 });
+    ScrollReveal().reveal('.title', { delay: 500 });
+    ScrollReveal().reveal('.description', { delay: 600 });
+</script>
+</body>
+</html>
