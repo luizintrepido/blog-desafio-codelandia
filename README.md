@@ -1,8 +1,8 @@
-# blog desafio codelandia
+# Blog desafio Codelandia
  
  
  <h2>💻 Sobre o projeto</h2>
-Projeto criado para praticar as habilidades em HTML e CSS. Blog simple com um script de animação e design totalmente responsivo.
+Projeto criado para praticar as habilidades em HTML e CSS. Blog simples com um script de animação e design totalmente responsivo.
 
  <h2>🚀Tecnologias</h2>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -12,8 +12,7 @@ HTML5<br>
 CSS3<br> 
 JavaScript (animações)
 
-🔖 Layout 
-O layout do site foi desenvolvido durante o curso de Web Design Completo da [Origamid](https://www.origamid.com/curso/web-design-completo/).
+
 
 ## 🌐 Projeto final
 [Clique aqui](https://luizintrepido.github.io/bikcraft/) para acessar o projeto no ar!
