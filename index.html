@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
   <title>Blog Codelândia</title>
 
 </head>
+
 <body>
   <header>
     <div class="menu-bg">
@@ -25,16 +27,16 @@
         <div class="t2">
           <h2>blog</h2>
         </div>
-    
+
       </div>
       <nav class="pesquisa">
-        
-        <input type="text" id="txtBusca" placeholder="Pesquisar no blog"/>
-        
+
+        <input type="text" id="txtBusca" placeholder="Pesquisar no blog" />
+
       </nav>
     </div>
   </header>
-  
+
   <li class="container-post">
     <div class="date">
       <p>02 de jul, 2021 <img src="Vectors2.svg" class="far fa-heart"></p>
@@ -71,21 +73,22 @@
   </li>
 
 
-  
+
   <script src="https://unpkg.com/scrollreveal"></script>
 
   <script>
     const sr = ScrollReveal({
-        origin: 'top',
-        distance: '50px',
-        duration: 2000,
-        reset: true
+      origin: 'top',
+      distance: '50px',
+      duration: 2000,
+      reset: true
     });
 
     ScrollReveal().reveal('.container-post', { delay: 200 });
     ScrollReveal().reveal('.date', { delay: 400 });
     ScrollReveal().reveal('.title', { delay: 500 });
     ScrollReveal().reveal('.description', { delay: 600 });
-</script>
+  </script>
 </body>
+
 </html>
