@@ -15,7 +15,9 @@ JavaScript (animações)
 
 
 ## 🌐 Projeto final
-[Clique aqui](https://luizintrepido.github.io/bikcraft/) para acessar o projeto no ar!
+[Clique aqui](https://luizintrepido.github.io/blog-desafio-codelandia/) para acessar o projeto no ar!
+
+![image](https://user-images.githubusercontent.com/93409913/144731502-4993b217-f3ca-4fd4-9fed-0e3b18c4aea5.png)
 
 
 ---
